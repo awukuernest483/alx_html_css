@@ -1,0 +1,122 @@
+/* 0-styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #2d3a4b;
+    color: #fff;
+    padding: 32px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #b0b8c1;
+}
+
+/* Navigation styles */
+nav {
+    background: #1a2230;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ff7a59;
+}
+
+/* Main content styles */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+}
+
+/* Section styles */
+section {
+    margin-bottom: 32px;
+}
+
+section h2 {
+    color: #2d3a4b;
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+}
+
+/* Button styles */
+.button, button {
+    background: #ff7a59;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button:hover, button:hover {
+    background: #e05d3c;
+}
+
+/* Footer styles */
+footer {
+    background: #2d3a4b;
+    color: #b0b8c1;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 0.95rem;
+    margin-top: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    nav ul li {
+        margin: 0 8px;
+    }
+}
